@@ -10,6 +10,12 @@
       sizes="32x32"
       href="./assets/images/favicon-32x32.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Frontend Mentor | Results summary component</title>
     <link rel="stylesheet" href="./style.css" />
@@ -20,7 +26,7 @@
         <h2 class="resultado">Seu Resultado</h2>
         <div class="pontuacao">76</div>
         <p class="proporcionalidade">de 100</p>
-        <p class="classificacao">Great</p>
+        <p class="classificacao">Ótimo</p>
         <p class="descricao">
           Você obteve uma pontuação superior a 65% das pessoas que fizeram este
           teste.
@@ -28,22 +34,26 @@
       </div>
 
       <div class="sumario-resumo__container">
-        <h1 class="resumo">Summary</h1>
+        <h1 class="resumo">Sumário</h1>
         <div class="reacao">
+          <img src="./assets/images/icon-reaction.svg" alt="Ícone de Reação" />
           <p>Reação</p>
-          <span>80 / 100</span>
+          <span class="valor">80</span><span class="total">/100</span>
         </div>
         <div class="memoria">
+          <img src="./assets/images/icon-memory.svg" alt="Ícone de Memória" />
           <p>Memória</p>
-          <span>92 / 100</span>
+          <span class="valor">92</span><span class="total">/100</span>
         </div>
         <div class="verbal">
+          <img src="./assets/images/icon-verbal.svg" alt="Ícone de Verbal" />
           <p>Verbal</p>
-          <span>61 / 100</span>
+          <span class="valor">61</span><span class="total">/100</span>
         </div>
         <div class="visual">
+          <img src="./assets/images/icon-visual.svg" alt="Ícone de Visual" />
           <p>Visual</p>
-          <span>72 / 100</span>
+          <span class="valor">72</span><span class="total">/100</span>
         </div>
 
         <button class="continuar">Continue</button>
