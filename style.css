@@ -50,7 +50,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 30px;
+  gap: 20px;
   background: var(--grad-azul-claro);
   min-height: 520px;
   max-width: 50%;
@@ -72,6 +72,7 @@ body {
   background: linear-gradient(var(--grad-azul-royal), var(--grad-azul-claro));
   width: 200px;
   height: 200px;
+  margin-top: 15px;
   border-radius: 50%;
 }
 
@@ -83,6 +84,18 @@ body {
 
 .proporcionalidade {
   color: var(--cor-lavanda);
-  font-size: 18px;
+  font-size: 17px;
+}
+
+.classificacao{
+  color: var(--cor-branco);
+  font-size: 30px;
+  margin-top: 0.5rem;
+  font-weight: 700;
+}
+
+.descricao{
+  color: var(--cor-lavanda);
+  font-size: 17px;  
 }
 
