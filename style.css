@@ -51,20 +51,20 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  background: var(--grad-azul-claro);
+  background: linear-gradient(var(--grad-azul-claro), var(--grad-azul-royal));
   min-height: 520px;
   max-width: 50%;
   padding: 40px;
-  border-radius: 35px;  
+  border-radius: 35px;
 }
 
-.resultado{
+.resultado {
   color: var(--cor-lavanda);
   font-size: 24px;
   font-weight: 500;
 }
 
-.pontuacao__circulo {
+.pontuacao-circulo {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -87,15 +87,29 @@ body {
   font-size: 17px;
 }
 
-.classificacao{
+.classificacao {
   color: var(--cor-branco);
   font-size: 30px;
   margin-top: 0.5rem;
   font-weight: 700;
 }
 
-.descricao{
+.descricao {
   color: var(--cor-lavanda);
-  font-size: 17px;  
+  font-size: 17px;
+}
+
+.sumario-resumo__container {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+width: 50%;
+padding:40px;
+}
+
+.resumo-titulo{ 
+  font-size: 25px;
+  font-weight: 700;
 }
 
