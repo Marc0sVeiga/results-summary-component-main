@@ -8,6 +8,8 @@
   /* Gradientes */
   --grad-azul-claro: hsl(252, 100%, 67%);
   --grad-azul-royal: hsl(241, 81%, 54%);
+  --grad-azul-royal-50: hsl(241, 81%, 54%, 0.5);
+  --grad-azul-royal-0: hsl(241, 81%, 54%, 0);
 
   /* Neutras */
   --cor-branco: hsl(0, 0%, 100%);
@@ -69,7 +71,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(var(--grad-azul-royal), var(--grad-azul-claro));
+  background: linear-gradient(var(--grad-azul-royal-50), var(--grad-azul-royal-0));
   width: 200px;
   height: 200px;
   margin-top: 15px;
