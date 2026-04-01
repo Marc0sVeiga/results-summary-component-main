@@ -10,7 +10,8 @@
   --grad-azul-royal: hsl(241, 81%, 54%);
   --grad-azul-royal-50: hsl(241, 81%, 54%, 0.5);
   --grad-azul-royal-0: hsl(241, 81%, 54%, 0);
-
+  --grad-azul-cinza-50: hsla(220, 20%, 30%, 0.5);
+  
   /* Neutras */
   --cor-branco: hsl(0, 0%, 100%);
   --cor-azul-palido: hsl(221, 100%, 96%);
@@ -71,7 +72,10 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(var(--grad-azul-royal-50), var(--grad-azul-royal-0));
+  background: linear-gradient(
+    var(--grad-azul-cinza-50),
+    var(--grad-azul-royal-0)
+  );
   width: 200px;
   height: 200px;
   margin-top: 15px;
@@ -98,27 +102,27 @@ body {
 
 .descricao {
   color: var(--cor-lavanda);
-  font-size: 17px;
+  font-size: 18px;
+  padding: 0 20px;
 }
 
 .sumario-resumo__container {
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-gap: 24px;
-width: 50%;
-height: 520px;
-padding:40px;
-
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  width: 50%;
+  height: 520px;
+  padding: 40px;
 }
 
-.resumo-titulo{ 
+.resumo-titulo {
   font-size: 25px;
   font-weight: 700;
-  color: var(--cor-cinza-azul); 
+  color: var(--cor-cinza-azul);
 }
 
-.status-item{
+.status-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -128,52 +132,51 @@ padding:40px;
   font-weight: 600;
 }
 
-.status-item__esquerdo{
+.status-item__esquerdo {
   display: flex;
   align-items: center;
   gap: 15px;
 }
 
-.reacao{
+.reacao {
   background-color: hsla(0, 100%, 67%, 0.07);
-  color: var(--cor-vermelho);  
+  color: var(--cor-vermelho);
 }
 
-.memoria{
+.memoria {
   background-color: hsla(39, 100%, 56%, 0.07);
   color: var(--cor-amarelo);
 }
 
-.verbal{
-  background-color:hsla(166, 100%, 37%, 0.07);
+.verbal {
+  background-color: hsla(166, 100%, 37%, 0.07);
   color: var(--cor-verde);
 }
 
-.visual{
+.visual {
   background-color: hsla(234, 85%, 45%, 0.07);
   color: var(--cor-azul);
 }
 
-.btn-continuar{
+.btn-continuar {
   background-color: var(--cor-cinza-azul);
   width: 100%;
   height: 55px;
   color: var(--cor-branco);
   border-radius: 50px;
-  margin-top: 10px;  
+  margin-top: 10px;
   font-size: 18px;
 }
 
-.status-item__direito{
+.status-item__direito {
   display: flex;
   align-items: center;
-  gap: 10px;;
+  gap: 10px;
   color: var(--cor-cinza-azul);
   font-weight: 500;
 }
 
-.status-item__direito .nota{
+.status-item__direito .nota {
   font-size: 18px;
   font-weight: 800;
 }
-
